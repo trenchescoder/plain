@@ -1,0 +1,75 @@
+
+body { 
+    margin: 0;
+     padding: 0;
+      font-family: Arial, sans-serif;
+       background-color: #121212;
+        /* Dark background color */ 
+        color: #ffffff;
+         /* Light text color */
+         } 
+         .container { 
+            max-width: 600px;
+             margin: 50px auto;
+              padding: 20px;
+               background-color: #1f1f1f; 
+               /* Dark container background color */ 
+               border-radius: 8px; 
+               box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                /* Dark shadow */ 
+            } 
+            form {
+                 display: flex; flex-direction: column; 
+                } 
+                h2 { margin-bottom: 20px; 
+                } 
+                input, textarea { 
+                    margin-bottom: 10px;
+                     padding: 10px;
+                      border: 1px solid #444;
+                       /* Dark border color */ 
+                       border-radius: 5px;
+                        background-color: #333; 
+                        /* Dark input background color */ 
+                        color: #ffffff;
+                         /* Light text color */
+                         } 
+                         input::placeholder, textarea::placeholder {
+                             color: #bbb;
+                              /* Lighter placeholder text color */
+                             }
+                              button 
+                              {
+                                 padding: 10px;
+                                  border: none;
+                                   border-radius: 5px; 
+                                   background-color: #007bff; 
+                                   /* Blue button color */ 
+                                   color: #ffffff; 
+                                   /* Button text color */ 
+                                   cursor: pointer; 
+                                } 
+                                button:hover {
+                                     background-color: #0056b3; 
+                                     /* Darker blue on hover */
+                                     } 
+                                     .order-summary, .order-history, .profile-management {
+                                         margin-top: 20px;
+                                         }
+                                          .order-history, .profile-management {
+                                             border-top: 1px solid #444;
+                                              /* Dark border color */ 
+                                              padding-top: 20px;
+                                             }
+                                              .order-history h3, .profile-management h3 { 
+                                                margin-bottom: 10px; 
+                                            } 
+                                            #order-list, #order-history-list {
+                                                 list-style-type: none; padding: 0; 
+                                                } 
+                                                #order-list li, #order-history-list li {
+                                                     margin-bottom: 5px; 
+                                                    } 
+                                                    #total-price { 
+                                                        font-weight: bold;
+                                                     }
